@@ -1,0 +1,79 @@
+#card {
+    background-color: #000;
+    width: 300px;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 25px;
+}
+
+#textBlock {
+    height: 4.2rem;
+}
+
+#coverImage {
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#buttongroup {
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+#button {
+    background-color: #E01414;
+    border: 1px solid #E01414;
+    border-radius: 5px;
+    margin: 7px;
+    max-width: 4.8rem;
+}
+
+#link {
+    color: #fff;
+    text-decoration: none;
+    font-family: Inter;
+}
+
+#button-more {
+    margin: 7px
+}
+
+#button-more:hover {
+    color: #FFF;
+    background-color: #E01414;
+}
+
+#button:hover {
+    background-color: #C02626;
+    border: 1px solid #C02626;
+    border-radius: 5px;
+}
+
+#descriptionblocks {
+    display: flex;
+    justify-content: space-evenly
+}
+
+#descriptionblock {
+    display: flex;
+    padding: 0.2rem;
+}
+
+#description {
+    font-family: Inter;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    margin-left: 0.3rem;
+}

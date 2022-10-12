@@ -1,0 +1,39 @@
+
+#col{
+    display: flex;
+    /*align-items: stretch;*/
+    flex-direction: row;
+    
+  
+}
+
+#ThankYouCard{
+    background-color: black;
+    height: auto;
+    border: 10px solid #000;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0px 3px 10px black;
+    margin: 10px;
+    width: 100%;
+
+}
+
+#BookingOverviewCard{
+    background-color: black;
+    height: auto;
+    border: 10px solid #000;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0px 3px 10px black; 
+    margin: 10px;
+    width: 100%;
+
+}
+
+#Price{
+    text-align: left;
+    color: #E01414;
+}

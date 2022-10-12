@@ -1,0 +1,134 @@
+#link {
+    color: #fff;
+    text-decoration: none;
+    font-family: Inter;
+}
+
+#RowId {
+    margin-top: 5rem;
+    background-color: #000;
+}
+
+#seatheadline {
+    margin-bottom: 2.6rem;
+    margin-top: 0.6rem;
+}
+
+#seatselection {
+    border: 3px solid #FFF;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    padding-top: 0.5rem;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#row {
+    display: flex;
+    justify-content: space-between
+}
+
+#seat0, #seat1, #seat2{
+    width: 2.5rem;
+    height: 2.2rem;
+    margin: 0.5rem;
+    background-color: #147EE0;
+    border: 1px solid #147EE0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#seat0:hover {
+    width: 2.7rem;
+    height: 2.4rem;
+    margin: 0.3rem;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+}
+
+#seat1 {
+    background-color: #818D98;
+    pointer-events: none;
+    border: 1px solid #818D98;
+}
+
+#seat2 {
+    background-color: #F2901D;
+    border: 1px solid #F2901D;
+}
+
+#legend {
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#legendinner {
+    display: flex
+}
+
+#legendinner p {
+    padding-top: 0.4rem;
+}
+
+#ticketnumberCol {
+    margin-top: 4rem;
+    margin-right: 2rem;
+}
+
+#ticketdivrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ticketnumberbuttondiv {
+    display: flex;
+}
+
+#ticketnumberbtn {
+    background-color: #E01414;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #E01414;
+    border-radius: 1000px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+#overview{
+    display: flex;
+    justify-content: space-around
+}
+
+#paymentheader {
+    text-align: left;
+}
+
+#paymentoptions {
+    display: flex;
+    margin-top:1rem;
+}
+
+#paymentlogopp{
+    width: 12rem;
+}
+
+#paymentlogovisa {
+    height: 2rem;
+    margin-top: 46px;
+    padding-left: 2rem;
+}
+
+#btndiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#buttonCont {
+    background-color: #E01414;
+}
